@@ -12,5 +12,9 @@ namespace MyCourse.Controllers
         {
             return Content($"Cono Detail ho ricevuto I'id {id}");
         }
+        public IActionResult Search(string title)
+        {
+            return Content($"Hai cercato {title}");
+        }
     }
 }
